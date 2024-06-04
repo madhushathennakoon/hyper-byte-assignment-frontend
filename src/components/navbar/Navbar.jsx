@@ -4,15 +4,15 @@ const Navlinks = [
   {
     id: 1,
     name: "Home",
-    link: "/#",
+    link: "/",
   },
   {
-    id: 1,
-    name: "Create New Restaurent",
-    link: "/#",
+    id: 2,
+    name: "Create New Restaurant ",
+    link: "/create",
   },
   {
-    id: 1,
+    id: 3,
     name: "Contact",
     link: "/#",
   },
@@ -24,7 +24,7 @@ const Navbar = () => {
       <div className="bg-white shadow-md">
         <div className="container flex justify-between py-4 sm:py-3 ">
           {/* Logo section */}
-          <div className="font-bold text-3xl ">Restaurants Service </div>
+          <div className="font-bold text-3xl ">Restaurant Service </div>
           {/* Navlinks section */}
           <div>
             <ul className="flex items-center gap-10">
